@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.gulliver__header {
+    background-color: #0B1A50;
+}
+
+ul li a:hover {
+    border-bottom: 2px solid #FFF;
+}
+
+.gulliver__logo {
+    width: 100%;
+    max-width: 115px;
+}
+
+.gulliver__accommodation--options div:hover {
+    background-color: #0B1A50;
+    color: #fff;
+}
+
+.selector-language {
+    width: 60px;
+}
+
+.gulliver__accommodation--options img {
+    width: 100%;
+    max-width: 30px;
+}
+
+.gulliver__accommodation--options div {
+    height: 100px;
+}
+
+h1 {
+    color: #061C8D;
+}
+
+footer {
+    background-color: #0B1A50;
+    color: #FFF;
+}
+
+img {
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media only screen and (max-width: 430px) {
+    .gulliver__accommodation--options {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .gulliver__suggestions {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .gulliver__accommodation--options div {
+        width: 100% !important;
+    }
+
+    .acommodations {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer div {
+        align-items: center;
+    }
+
+    .gulliver__header {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .gulliver__header ul {
+        display: none !important;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
